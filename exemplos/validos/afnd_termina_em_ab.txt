@@ -1,0 +1,10 @@
+# Mesmo autômato de afnd_termina_em_ab.json, no formato .txt
+# Linguagem: palavras sobre {a,b} que terminam em "ab"
+estados: q0 q1 q2
+alfabeto: a b
+inicial: q0
+finais: q2
+transicoes:
+q0 a q0 q1
+q0 b q0
+q1 b q2

@@ -1,0 +1,8 @@
+estados: q0 q1
+alfabeto: a
+inicial: q0
+finais: q1
+transicoes:
+q0 a q1
+q1 a
+isto nao e uma transicao valida

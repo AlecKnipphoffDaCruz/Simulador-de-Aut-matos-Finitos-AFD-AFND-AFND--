@@ -1,0 +1,13 @@
+{
+  "estados": ["q0", "q1", "q2", "q3", "q4"],
+  "alfabeto": ["a", "b"],
+  "inicial": "q0",
+  "finais": ["q2", "q4"],
+  "transicoes": [
+    {"de": "q0", "simbolo": "ε", "para": ["q1", "q3"]},
+    {"de": "q1", "simbolo": "a", "para": ["q2"]},
+    {"de": "q2", "simbolo": "a", "para": ["q2"]},
+    {"de": "q3", "simbolo": "b", "para": ["q4"]},
+    {"de": "q4", "simbolo": "b", "para": ["q4"]}
+  ]
+}
